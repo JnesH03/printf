@@ -3,11 +3,11 @@
 /**
  * print_pointer - printings pointer variable
  * @types:argument list
- * @buffer: array to handling print
+ * @buffer: array to handling print.
  * @flags:active flag calculaion
  * @width:width
- * @precision:specification of precison
- * @size: the size specifyer
+ * @precision:specification of precison.
+ * @size: the size specifyer.
  * Return:characters printed
  */
 int print_pointer(va_list types, char buffer[],
@@ -53,12 +53,12 @@ int print_pointer(va_list types, char buffer[],
 
 /**
  * print_non_printable - ascii codes in hexa of non_printable characters
- * @types: arguments listing
+ * @types: arguments listing.
  * @buffer:array handling print
- * @flags:com,pute  active flags
+ * @flags:com,pute  active flags.
  * @width: width
- * @precision: specification of precision
- * @size: specifier for z!ze
+ * @precision: specification of precision.
+ * @size: specifier for s!ze
  * Return: characters printeD
  */
 int print_non_printable(va_list types, char buffer[],
@@ -92,13 +92,13 @@ int print_non_printable(va_list types, char buffer[],
 
 
 /**
- * print_reverse - prrints reverse str
+ * print_reverse - prints reverse str
  * @types: argument listing
  * @buffer: array of buffer to handle print
- * @flags:active flags calkculation
+ * @flags:active flags calculation
  * @width:width
  * @precision: precision specifications
- * @size: specifyer of size
+ * @size: specifier of size
  * Return: No of characters printed
  */
 

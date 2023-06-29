@@ -2,9 +2,9 @@
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf - this is the printf fxn
- * @format: formating
- * Return: Printed characters
+ * _printf - this is the printf fxn.
+ * @format: formating.
+ * Return: Printed characters.
  */
 int _printf(const char *format, ...)
 {
@@ -52,9 +52,9 @@ int _printf(const char *format, ...)
 }
 
 /**
- * print_buffer - this will print the content of the buffer incase of existence
- * @buffer: it is an array of characters
- * @buff_ind: the index where we add the next char,and it representing the len
+ * print_buffer - this will print the content of the buffer incase of existence.
+ * @buffer: it is an array of characters.
+ * @buff_ind: the index where we add the next char,and it representing the len.
  */
 void print_buffer(char buffer[], int *buff_ind)
 {

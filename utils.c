@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * is_printable - check if char is print@ble
- * @c:the character to be checked
+ * is_printable - check if char is print@ble.
+ * @c:the character to be checked.
  * Return: return 1 if char printable, else 0
  */
 int is_printable(char c)

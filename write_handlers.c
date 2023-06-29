@@ -1,16 +1,17 @@
 #include "main.h"
 
 /* write handle*/
+
 /**
  * handle_write_char - for str print
  * @c: char types.
  * @buffer: array for print handlng
- * @flags:computation of flags
+ * @flags:computation of flags.
  * @width:obtain the width
- * @precision: specify precision
+ * @precision: specify precision.
  * @size:the size specifyer
  *
- * Return: show the xters printed
+ * Return: show the xters printed.
  */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
@@ -50,11 +51,11 @@ int handle_write_char(char c, char buffer[],
  * @is_negative: for listing arguments
  * @ind: char types.
  * @buffer: array to handl3 prin_t
- * @flags: computes the activ flags
- * @width: for geting width
- * @precision: precission specifyer
+ * @flags: computes the active flags
+ * @width: for getting width
+ * @precision: precission specifier
  * @size:for specifying siz3
- * Return: returns printed xters
+ * Return: returns printed xters.
  */
 int write_number(int is_negative, int ind, char buffer[],
 	int flags, int width, int precision, int size)
@@ -80,10 +81,10 @@ int write_number(int is_negative, int ind, char buffer[],
 /**
  * write_num - wtite num using bufer
  * @ind: the index wher the num start
- * @buffer:the buffer
- * @flags: flaqs
+ * @buffer:the buffer.
+ * @flags: flags
  * @width: the width
- * @prec: specifier
+ * @prec: specifier.
  * @length: Num len
  * @padd: char (padd)
  * @extra_c: xtra character
@@ -140,7 +141,7 @@ int write_num(int ind, char buffer[],
  * @is_negative: indicates whether no. is +ve or -ve
  * @ind:where num starts in buffer
  * @buffer: array of chars
- * @flags: flaqs specifyer
+ * @flags: flags specifyer
  * @width: specifierr for width
  * @precision: spes for preci
  * @size: specy for siz3
